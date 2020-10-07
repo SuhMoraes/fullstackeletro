@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding:0
+}
+
+h2, p, h3, ul, .menu a{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+ul {
+    width: 50%;
+}
+
+h2, h3{
+    padding: 10px;
+}
+
+.menu{
+    background-color: red;
+    width: 100%;    
+    display: flex; 
+    align-items: center;
+    
+}
+
+.menu a {
+    color: white;    
+    text-decoration: none;
+    padding: 10px;  
+}
+
+.lojas{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;   
+}
+
+.loja-end{
+    font-size: 16px;     
+    margin: 20px 50px;
+    width: 200px;
+    display: inline-block;    
+}
+
+.loja-end p{
+    margin: 20px;
+    height: 15px;  
+}
+
+
+.categorias{
+    width: 30%;
+    font-size: 15px;   
+    padding: 8px 20px;
+    margin: 10px;
+   
+}
+
+.produtos{       
+    text-align: center;   
+    width: 90%;
+    position: absolute;
+    right: 0;
+    top: 165px;
+}
+
+.box_produto {    
+    color: black;  
+    display: inline-block; 
+    width: 20%;  
+}
+
+.descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2;
+    color: black;
+} 
+
+.valor1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12px;
+    background-color: white;
+    margin: 3px 0px 5px 0px;
+    text-decoration: line-through;
+}
+
+.valor2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;    
+    color: red;
+    font-size: 16px; 
+    background-color: white;
+    margin: 3px 0px 5px 0px;
+}
+
+#forma_pagamento {
+    color: red;
+    text-align: center;
+}
+
+.pagamento{
+    width: 300px;
+    text-align: center;
+}
+  
+.contatos{
+    display: inline;    
+    margin: 10px;
+    padding: 30px;
+    text-align: center;    
+}
+
+.formulario{   
+    padding: 10px 20px;
+    margin: 10px 15px;
+}
+
+.rodape{
+    width: auto;
+}
+
+#rodape {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: -32px;    
+}
+
+
+
